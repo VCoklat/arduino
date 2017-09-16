@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.handy.led.HelpMenu"
+    android:background="@color/background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="Help Login"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:id="@+id/textView8"
+                android:textSize="26dp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                    android:layout_width="270dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/help_login"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/imageView18"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/textView8"
+                    android:layout_centerHorizontal="true" />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/help_main_menu"
+                android:layout_below="@+id/textView11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:id="@+id/imageView21" />
+
+            <TextView
+                android:text="Help Room"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="37dp"
+                android:id="@+id/textView12"
+                android:textSize="26dp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/imageView21"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/help_bedroom"
+                android:layout_below="@+id/textView12"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView22" />
+
+            <TextView
+                android:text="Help Main Menu"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="49dp"
+                android:id="@+id/textView11"
+                android:textSize="26dp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/imageView18"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

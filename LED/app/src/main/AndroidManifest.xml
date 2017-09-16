@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handy.led">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HalamanMasuk" />
+        <activity android:name=".DeviceList" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Kamar2" />
+        <activity android:name=".Kamar1" />
+        <activity android:name=".Dapur" />
+        <activity android:name=".Kamarmandi" />
+        <activity android:name=".Ruangtamu" />
+        <activity android:name=".Help" />
+        <activity android:name=".HelpMenu"></activity>
+    </application>
+
+</manifest>

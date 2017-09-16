@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.handy.led.MainActivity"
+    android:background="@color/background"
+    >
+
+    <!--Ruang tamu-->
+    <ImageView
+        app:srcCompat="@drawable/ruangtamu"
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--kamar 1-->
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/kamar__1"
+        android:id="@+id/imageView17"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView14"
+        android:layout_alignStart="@+id/imageView14"
+        android:layout_marginBottom="10dp"/>
+
+    <!--kamar mandi-->
+    <ImageView
+        android:layout_width="73dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/kamar_mandi_2"
+        android:id="@+id/imageView19"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageView14"
+        android:layout_alignStart="@+id/imageView14"
+        android:layout_marginLeft="3dp" />
+
+    <!--kamar 2-->
+    <ImageView
+        android:layout_width="162dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/kamar__2"
+        android:id="@+id/imageView14"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:scaleX="1.01"/>
+
+    <!--dapur-->
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/dapur"
+        android:id="@+id/imageView15"
+        android:scaleType="fitXY"
+        android:scaleY="1.33"
+        android:scaleX="1.6"
+        android:layout_alignBottom="@+id/imageView17"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        app:srcCompat="@drawable/room_id"
+        android:id="@+id/imageView"
+        android:scaleType="fitCenter"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--help-->
+    <ImageView
+        app:srcCompat="@drawable/help"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+
+</RelativeLayout>
+
